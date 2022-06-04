@@ -1,4 +1,5 @@
 import Head from "next/head";
+import BackgroundDotsSection from "../sections/BackgroundDotsSection/BackgroundDotsSection";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Hello Jordi</h1>
+        <BackgroundDotsSection />
       </main>
     </div>
   );
